@@ -1,6 +1,6 @@
 ﻿
 JsonInvertory.JSONMain json = new JsonInvertory.JSONMain();
-json.convert("E:\\Json Invertory\\JsonInvertory\\Invontory.json ");
+json.convert("E:\\Json Invertory\\ObjectOrientedProgram\\JsonInvertory\\Invontory.json");
 
 
 

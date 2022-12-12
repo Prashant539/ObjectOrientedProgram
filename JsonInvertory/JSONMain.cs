@@ -11,9 +11,9 @@ namespace JsonInvertory
     {
         Model Invontory = new Model();
         List<Model> InvontoryList= new List<Model>();
-        public void convert (string jFilepath)
+        public void convert (string jFilePath)
         {
-            using (StreamReader reader = new StreamReader(jFilepath))
+            using (StreamReader reader = new StreamReader(jFilePath))
             {
                 var json = reader.ReadToEnd();
                 var items = JsonConvert.DeserializeObject<List<Model>>(json);
